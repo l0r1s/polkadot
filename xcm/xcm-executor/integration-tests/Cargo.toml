@@ -6,20 +6,20 @@ edition.workspace = true
 version.workspace = true
 
 [dependencies]
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+frame-system = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
 futures = "0.3.21"
 pallet-xcm = { path = "../../pallet-xcm" }
 polkadot-test-client = { path = "../../../node/test/client" }
 polkadot-test-runtime = { path = "../../../runtime/test-runtime" }
 polkadot-test-service = { path = "../../../node/test/service" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
 xcm = { path = "../..", default-features = false }
 xcm-executor = { path = ".." }
-sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
 
 [features]
 default = ["std"]

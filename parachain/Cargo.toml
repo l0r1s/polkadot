@@ -11,10 +11,10 @@ version.workspace = true
 # various unnecessary Substrate-specific endpoints.
 parity-scale-codec = { version = "3.1.5", default-features = false, features = [ "derive" ] }
 scale-info = { version = "2.1.2", default-features = false, features = ["derive"] }
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-core = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+sp-std = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-core = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
 polkadot-core-primitives = { path = "../core-primitives", default-features = false }
 derive_more = "0.99.11"
 

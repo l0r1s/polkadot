@@ -14,29 +14,29 @@ serde = { version = "1.0.137", features = [ "derive" ], optional = true }
 derive_more = "0.99.17"
 bitflags = "1.3.2"
 
-sp-api = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-inherents = { package = "sp-inherents", git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-std = { package = "sp-std", git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-io = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-session = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-staking = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-core = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-sp-keystore = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-checks" }
-sp-application-crypto = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-checks" }
-sp-tracing = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-checks" }
+sp-api = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+inherents = { package = "sp-inherents", git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-std = { package = "sp-std", git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-io = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-session = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-staking = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-core = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-keystore = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-cli-select-check" }
+sp-application-crypto = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-cli-select-check" }
+sp-tracing = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-cli-select-check" }
 
-pallet-authority-discovery = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-authorship = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-babe = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-session = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-staking = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-pallet-vesting = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-checks" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
-frame-system = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+pallet-authority-discovery = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-authorship = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-balances = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-babe = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-session = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-staking = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+pallet-vesting = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-cli-select-check" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+frame-system = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
 
 xcm = { package = "xcm", path = "../../xcm", default-features = false }
 xcm-executor = { package = "xcm-executor", path = "../../xcm/xcm-executor", default-features = false }
@@ -50,11 +50,11 @@ polkadot-runtime-metrics = { path = "../metrics", default-features = false}
 [dev-dependencies]
 futures = "0.3.21"
 hex-literal = "0.3.4"
-keyring = { package = "sp-keyring", git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
-frame-support-test = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
-sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+keyring = { package = "sp-keyring", git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+frame-support-test = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
 test-helpers = { package = "polkadot-primitives-test-helpers", path = "../../primitives/test-helpers"}
-sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
 thousands = "0.2.0"
 assert_matches = "1"
 serde_json = "1.0.85"
