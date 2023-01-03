@@ -5,9 +5,9 @@ authors.workspace = true
 edition.workspace = true
 
 [dependencies]
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-application-crypto = { package = "sp-application-crypto", git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-core = { git = "https://github.com/paritytech/substrate", features = ["std"] , branch = "oty-try-runtime-cli-select-check" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-application-crypto = { package = "sp-application-crypto", git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-core = { git = "https://github.com/paritytech/substrate", features = ["std"] , branch = "oty-try-runtime-checks" }
 polkadot-primitives = { path = "../" }
 rand = "0.8.5"

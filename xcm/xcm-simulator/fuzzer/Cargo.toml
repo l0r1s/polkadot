@@ -10,13 +10,13 @@ codec = { package = "parity-scale-codec", version = "3.0.0" }
 honggfuzz = "0.5.55"
 scale-info = { version = "2.1.2", features = ["derive"] }
 
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+frame-system = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+frame-support = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-std = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-io = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 xcm = { path = "../../" }
 xcm-simulator = { path = "../" }

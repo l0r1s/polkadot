@@ -14,20 +14,20 @@ polkadot-primitives = { path = "../../../primitives" }
 polkadot-node-subsystem = { path = "../../subsystem" }
 
 # Substrate dependencies
-substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sc-service = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-api = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 [dev-dependencies]
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 futures = "0.3.21"

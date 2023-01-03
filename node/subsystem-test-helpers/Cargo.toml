@@ -12,11 +12,11 @@ parking_lot = "0.12.0"
 polkadot-node-subsystem = { path = "../subsystem" }
 polkadot-node-subsystem-util = { path = "../subsystem-util" }
 polkadot-primitives = { path = "../../primitives" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-application-crypto = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-application-crypto = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 [dev-dependencies]
 polkadot-overseer = { path = "../overseer" }

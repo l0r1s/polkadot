@@ -15,14 +15,14 @@ polkadot-primitives = { path = "../../../primitives" }
 polkadot-node-subsystem-util = { path = "../../subsystem-util" }
 polkadot-overseer = { path = "../../overseer" }
 
-sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 [dev-dependencies]
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 polkadot-node-subsystem-test-helpers = { path = "../../subsystem-test-helpers"}
 test-helpers = { package = "polkadot-primitives-test-helpers", path = "../../../primitives/test-helpers" }
-sp-application-crypto = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sp-application-crypto = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 futures-timer = "3.0.2"

@@ -7,8 +7,8 @@ edition.workspace = true
 [dependencies]
 clap = { version = "4.0.9", features = ["derive"] }
 
-generate-bags = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+generate-bags = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-io = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 westend-runtime = { path = "../../runtime/westend" }
 kusama-runtime = { path = "../../runtime/kusama" }

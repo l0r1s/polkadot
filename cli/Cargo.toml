@@ -25,20 +25,20 @@ polkadot-client = { path = "../node/client", optional = true }
 polkadot-node-core-pvf = { path = "../node/core/pvf", optional = true }
 polkadot-performance-test = { path = "../node/test/performance-test", optional = true }
 
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-cli-select-check" }
-try-runtime-cli = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-cli-select-check" }
-sc-cli = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-cli-select-check" }
-sc-service = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-cli-select-check" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-io = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-checks" }
+try-runtime-cli = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-checks" }
+sc-cli = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-checks" }
+sc-service = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-checks" }
 polkadot-node-metrics = { path = "../node/metrics" }
-sc-tracing = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-cli-select-check" }
-sc-sysinfo = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sc-tracing = { git = "https://github.com/paritytech/substrate", optional = true , branch = "oty-try-runtime-checks" }
+sc-sysinfo = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sc-executor = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 
 [features]
 default = ["db", "cli", "hostperfcheck", "full-node", "polkadot-native"]

@@ -14,11 +14,11 @@ polkadot-node-network-protocol = { path = "../network/protocol" }
 polkadot-statement-table = { path = "../../statement-table" }
 polkadot-node-jaeger = { path = "../jaeger" }
 orchestra = "0.0.4"
-sc-network = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
-sp-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+sc-network = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-api = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
+sp-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 smallvec = "1.8.0"
-substrate-prometheus-endpoint = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-cli-select-check" }
+substrate-prometheus-endpoint = { git = "https://github.com/paritytech/substrate", branch = "oty-try-runtime-checks" }
 thiserror = "1.0.31"
 async-trait = "0.1.57"

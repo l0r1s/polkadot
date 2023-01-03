@@ -10,21 +10,21 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
 scale-info = { version = "2.1.2", default-features = false, features = ["derive"] }
-frame-support = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-frame-system = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-sp-std = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
+frame-support = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+frame-system = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+sp-std = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
 xcm-executor = { path = "../xcm-executor", default-features = false }
-frame-benchmarking = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
+frame-benchmarking = { default-features = false, git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
 xcm = { path = "..", default-features = false }
 log = "0.4.17"
 
 [dev-dependencies]
-pallet-balances = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-pallet-assets = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-sp-core = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-sp-io = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
-sp-tracing = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-cli-select-check" }
+pallet-balances = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+pallet-assets = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+sp-core = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+sp-io = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
+sp-tracing = { git = "https://github.com/paritytech/substrate" , branch = "oty-try-runtime-checks" }
 xcm-builder = { path = "../xcm-builder" }
 xcm = { path = ".." }
 # temp

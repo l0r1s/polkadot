@@ -9,14 +9,14 @@ version.workspace = true
 impl-trait-for-tuples = "0.2.2"
 parity-scale-codec = { version = "3.1.5", default-features = false, features = ["derive"] }
 xcm = { path = "..", default-features = false }
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
-sp-io = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
-sp-arithmetic = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
-sp-core = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-cli-select-check" }
+sp-std = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+sp-io = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+sp-arithmetic = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+sp-core = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false , branch = "oty-try-runtime-checks" }
 log = { version = "0.4.17", default-features = false }
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-cli-select-check" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true , branch = "oty-try-runtime-checks" }
 
 [features]
 default = ["std"]
